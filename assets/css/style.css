@@ -1,0 +1,14 @@
+.carousel-caption{
+	position: absolute;
+	left: 60%;
+	top: 50%;
+	height: 170px;
+	width: 350px;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	text-align: left;
+	padding: 20px;
+}
+.carousel-item{
+	position: relative;
+}

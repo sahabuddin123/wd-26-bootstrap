@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-md-5 offset-md-3">
+					<div class="card">
+						<div class="card-header">
+							<h2 class="text-center">Register</h2>
+						</div>
+						<div class="card-body">
+							
+							<form action="#" method="post">
+								<div class="form-group">
+									<label for="name">Your Name <span class="text-danger">*</span></label>
+									<input type="text" name="username" id="name" class="form-control form-control-sm is-valid" required="" value="Shafins Shari" readonly>
+								</div>
+								<div class="form-group">
+									<label for="email">Your Email <span class="text-danger">*</span></label>
+									<input type="email" name="email" id="email" class="form-control form-control-lg is-invalid">
+								</div>
+								<div class="form-group">
+									<label for="dob">Date of Birth <span class="text-danger">*</span></label>
+									<input type="date" name="dob" id="dob" class="form-control" required="">
+								</div>
+								<div class="form-group">
+									<label for="district">District <span class="text-danger">*</span></label>
+									<select name="district" id="district" class="form-control">
+										<option value="dhaka">Dhaka</option>
+										<option value="feni">Feni</option>
+										<option value="comilla">Comilla</option>
+										<option value="noakhali">Noakhali</option>
+										<option value="laxmipur">Laxmipur</option>
+									</select>
+								</div>
+								<div class="form-group"	>
+									<label for="image">Your Image <span class="text-danger">*</span></label>
+									<input type="file" name="image" id="image" class="form-control" required="">
+								</div>
+</div>
+<div class="card-footer">
+								<div class="form-group text-center">
+									<button type="submit" class="btn btn-success">Register</button>
+									<button type="reset" class="btn btn-danger">Clear</button>
+								</div>
+							</form>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
